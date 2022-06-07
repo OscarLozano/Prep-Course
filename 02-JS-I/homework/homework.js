@@ -35,33 +35,36 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var sumar = x + y;
+  var resultado = x + y;
 
-  return sumar;
+  return resultado ; 
+
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var restar = x - y ;
+  var diferencia = x - y ;
 
-  return restar ;
+  return diferencia ;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var multiplicar = x * y ; 
+  var producto = x * y ; 
 
-  return multiplicar ;
+  return producto ; 
+
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  var dividir = x / y ; 
+  var coeficiente = x / y ; 
 
-  return dividir ;
+  return coeficiente ;
+  
 }
 
 function sonIguales(x, y) {
@@ -175,16 +178,14 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero === 0) {
-    return false;
-  } 
-  else if(numero > 0) {
-    return "Es positivo";
-  }
-  else {
-    return "Es negativo";
-  }
-}
+  
+ if(numero > 0) return 'Es positivo' ;
+  
+  else if (numero < 0) return "Es negativo"; 
+
+  else if (numero === 0) return false ;
+   
+ }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
