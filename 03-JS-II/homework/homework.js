@@ -95,10 +95,11 @@ function estaEnRango(numero) {
   // Tu código:
 if (numero < 50 && numero > 20) {
   return true 
-} else {
+ } else {   
   return false
+ }
 }
-}
+
 
 function esEntero(numero) {
   // Devuelve "true" si "numero" es un entero (int/integer)
@@ -124,8 +125,8 @@ function fizzBuzz(numero) {
   if (numero % 3 === 0) return "fizz";
   if (numero % 5 === 0) return "buzz";
   return numero ;
-}
-
+} 
+  
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
   //Si num1 es mayor a num2 y a num3 y además es positivo, retornar ---> "Número 1 es mayor y positivo"
